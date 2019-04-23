@@ -1,17 +1,18 @@
 
 function Scooter(year, color, model) {
-  this.year = year
-  this.color = color
-  this.model = model
+  this.year = year;
+  this.color = color;
+  this.model = model;
 }
 
 function Driver(name, age, experience) {
-  this.name = name
-  this.age = age
-  this.experience = experience
+  this.name = name;
+  this.age = age;
+  this.experience = experience;
 }
 
 function PickupLocation(address, city) {
-  this.address = address
-  this.city = city
+  this.address = address;
+  this.city = city;
 }
+//this is the equivilant of self
